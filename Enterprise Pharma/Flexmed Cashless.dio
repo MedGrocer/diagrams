@@ -1,0 +1,21 @@
+<mxfile host="65bd71144e">
+    <diagram id="ouQSR3oI3ydhSUrifpLs" name="Process">
+        <mxGraphModel dx="1495" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Refer here:&amp;nbsp;&lt;br&gt;https://www.figma.com/file/ocdpZzgBRQ3chTp5Fzpuy6/Process-Flow-Diagram---FMC?type=design&amp;amp;mode=design&amp;amp;t=VFHqqgIl70ucFKmT-0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="40" width="770" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ui2cvQcCA4s_gJhWAUHl" name="Data Flow">
+        <mxGraphModel dx="1142" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
