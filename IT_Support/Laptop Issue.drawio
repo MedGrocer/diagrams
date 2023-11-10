@@ -1,0 +1,98 @@
+<mxfile host="65bd71144e">
+    <diagram id="lsMZVMBX44ypop4iRuGD" name="Page-1">
+        <mxGraphModel dx="722" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="IT Support Laptop Issue" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1400" height="602" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="2" source="11" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="HR&amp;nbsp;&lt;br&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry y="20" width="1400" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="sends the list of employees via Workplace Chat" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="10" vertex="1">
+                    <mxGeometry x="60" y="49.99999999999997" width="70" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="IT Specialist" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry y="170" width="1400" height="252" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;html=1;" parent="14" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="99.99999999999994" y="62" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="receives the list of employees" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="14" vertex="1">
+                    <mxGeometry x="60" y="43.49999999999996" width="70" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="14" source="12" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="updates and installs applications" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="14" vertex="1">
+                    <mxGeometry x="305" y="39.99999999999997" width="70" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;entryX=0.006;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="14" source="54" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="14" source="54" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="has enough &lt;br&gt;stock?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="14" vertex="1">
+                    <mxGeometry x="175" y="21.999999999999957" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="14" vertex="1">
+                    <mxGeometry x="255" y="30" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="buys laptop from suppliers" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="14" vertex="1">
+                    <mxGeometry x="172.5" y="140" width="85" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;no&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="14" vertex="1">
+                    <mxGeometry x="175" y="102" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="assigns laptops to an employee via Airtable (IT Devices and Accountability)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="14" vertex="1">
+                    <mxGeometry x="430" y="28.49999999999997" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Employee&lt;br&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry y="422" width="1400" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="22" source="68" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="receives an Email with Accountability Form document attached" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="22" vertex="1">
+                    <mxGeometry x="430" y="58" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="attends onboarding and receives laptop" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="22" vertex="1">
+                    <mxGeometry x="630" y="58" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="22" source="75" target="77" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="receives email confirmation of the signed document" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="22" vertex="1">
+                    <mxGeometry x="1030" y="58" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="document stored in Eversign" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="22" vertex="1">
+                    <mxGeometry x="1230" y="58" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="2" source="65" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;fontSize=8;" parent="1" source="61" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="1" source="72" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="signs Accountabiltiy Form Document using Eversign" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;html=1;fontSize=8;" parent="1" source="70" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
