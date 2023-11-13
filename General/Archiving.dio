@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3MN5alBNLH7yUjzLkESu" name="Process">
-        <mxGraphModel dx="902" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1002" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,7 +10,9 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="s7jkEgHqC_EdQE-Gh2La-2" value="Business Unit" style="swimlane;html=1;startSize=20;horizontal=0;strokeWidth=0.5;fillColor=none;strokeColor=#4D4D4D;fontFamily=Helvetica;fontSize=8;" parent="s7jkEgHqC_EdQE-Gh2La-1" vertex="1">
-                    <mxGeometry y="20" width="680" height="130" as="geometry"/>
+                    <mxGeometry y="20" width="680" height="130" as="geometry">
+                        <mxRectangle y="20" width="680" height="20" as="alternateBounds"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="s7jkEgHqC_EdQE-Gh2La-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=0.5;" parent="s7jkEgHqC_EdQE-Gh2La-2" source="s7jkEgHqC_EdQE-Gh2La-4" target="s7jkEgHqC_EdQE-Gh2La-9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
