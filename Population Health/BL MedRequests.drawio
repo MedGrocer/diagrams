@@ -1,0 +1,123 @@
+<mxfile host="65bd71144e">
+    <diagram id="DGjUhBljzP0qLcx9KxV6" name="Page-1">
+        <mxGraphModel dx="1329" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=0;horizontalStack=0;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="110" width="870" height="560" as="geometry">
+                        <mxRectangle x="110" y="120" width="40" height="60" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="23" source="28" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="220"/>
+                            <mxPoint x="90" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="User" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="23">
+                    <mxGeometry width="870" height="120" as="geometry">
+                        <mxRectangle x="20" width="850" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;font color=&quot;#ffffff&quot;&gt;User enrolls via Best Life Website&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;shadow=0;glass=0;strokeColor=#F0F0F0;" vertex="1" parent="27">
+                    <mxGeometry x="50" y="30" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font color=&quot;#ffffff&quot;&gt;Receive Response&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" vertex="1" parent="27">
+                    <mxGeometry x="505" y="30" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Ops Team" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="23">
+                    <mxGeometry y="120" width="870" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="30" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font color=&quot;#ffffff&quot;&gt;Verifies enrollment via tickets in AirTable&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" vertex="1" parent="30">
+                    <mxGeometry x="50" y="115" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="30" source="34" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;font color=&quot;#ffffff&quot;&gt;Ticket will go through Auditing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" vertex="1" parent="30">
+                    <mxGeometry x="210" y="115" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="30" source="37" target="70">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="66">
+                    <mxGeometry x="0.0048" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="30" source="37" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="79">
+                    <mxGeometry x="-0.7701" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Elligible?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="350" y="110" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="30" source="63" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font color=&quot;#ffffff&quot;&gt;Convert CSV to Tickets&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;shadow=0;glass=0;strokeColor=#F0F0F0;" vertex="1" parent="30">
+                    <mxGeometry x="50" y="210" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;font color=&quot;#ffffff&quot;&gt;Send Response via SMS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" vertex="1" parent="30">
+                    <mxGeometry x="505" y="10" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="30" source="70" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="71">
+                    <mxGeometry x="-0.4052" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="30" source="70" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="77">
+                    <mxGeometry x="-0.3333" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="Does input&lt;br&gt;&amp;nbsp;and prescription &lt;br&gt;match?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="490" y="107.5" width="110" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="30" source="76" target="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="230"/>
+                            <mxPoint x="250" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="&lt;font color=&quot;#ffffff&quot;&gt;Modify Medicines&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" vertex="1" parent="30">
+                    <mxGeometry x="660" y="115" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="TC and MHSI" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="23">
+                    <mxGeometry y="410" width="870" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font color=&quot;#ffffff&quot;&gt;Submits CSV File&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;shadow=0;glass=0;strokeColor=#F0F0F0;" vertex="1" parent="53">
+                    <mxGeometry x="50" y="45" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="23" source="62" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="23" source="68" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

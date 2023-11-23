@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-        <mxGraphModel dx="1598" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1491" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=0;horizontalStack=0;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="120" width="870" height="770" as="geometry">
+                    <mxGeometry x="110" y="120" width="870" height="650" as="geometry">
                         <mxRectangle x="110" y="120" width="40" height="60" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -126,7 +126,7 @@
                     <mxGeometry x="720" y="20" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Maxicare" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-                    <mxGeometry y="520" width="870" height="250" as="geometry"/>
+                    <mxGeometry y="520" width="870" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="sL7UevDDgPEJGkWVtFz8-44" value="&lt;font color=&quot;#ffffff&quot;&gt;Maxicare Endorsement&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#F0F0F0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
                     <mxGeometry x="500" y="50" width="80" height="60" as="geometry"/>
