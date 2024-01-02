@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="g8R7BBTLzhkVM3yIRRlQ" name="Page-1">
+        <mxGraphModel dx="650" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Best Life Teleconsults" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;swimlaneFillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="140" width="1100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="User" style="swimlane;startSize=20;horizontal=0;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="20" width="1100" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="3" source="8" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Book a consultation via Calendly" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+                    <mxGeometry x="60" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="User is a Maxicare Member" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="3" vertex="1">
+                    <mxGeometry x="210" y="20" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Receive teleconsult documents and email" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="3" vertex="1">
+                    <mxGeometry x="950" y="20" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Ops Team&lt;br&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="140" width="1100" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Upload CSV of outbound consults" style="rounded=1;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+                    <mxGeometry x="60" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="HQ MDs" style="swimlane;startSize=20;horizontal=0;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="260" width="1100" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Deck consultations to Doctors" style="rounded=1;whiteSpace=wrap;html=1;" parent="5" vertex="1">
+                    <mxGeometry x="190" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="12" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5529" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" parent="2" source="7" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Teleconsult MDs" style="swimlane;startSize=20;horizontal=0;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="380" width="1100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Attempts to contact Member" style="whiteSpace=wrap;html=1;rounded=1;" parent="6" vertex="1">
+                    <mxGeometry x="190" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Yes" style="edgeStyle=none;html=1;" parent="6" source="19" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Successfully contacts the member" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="6" vertex="1">
+                    <mxGeometry x="390" y="20" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;" parent="6" source="16" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" parent="6" source="21" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Conducts Consultation" style="whiteSpace=wrap;html=1;rounded=1;" parent="6" vertex="1">
+                    <mxGeometry x="530" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" parent="6" source="23" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Generate Documents and Email Spiel" style="whiteSpace=wrap;html=1;rounded=1;" parent="6" vertex="1">
+                    <mxGeometry x="730" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Send out teleconsult documents and email" style="whiteSpace=wrap;html=1;rounded=1;" parent="6" vertex="1">
+                    <mxGeometry x="930" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;" parent="2" source="25" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;" parent="1" source="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
