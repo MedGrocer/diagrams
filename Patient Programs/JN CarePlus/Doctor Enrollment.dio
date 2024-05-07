@@ -1,0 +1,178 @@
+<mxfile host="65bd71144e">
+    <diagram id="XFX1SE5yOD4sXINqQyMO" name="Decision Tree">
+        <mxGraphModel dx="1263" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Doctor Enrollment" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="220"/>
+                            <mxPoint x="180" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6404" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="220"/>
+                            <mxPoint x="340" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.326" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Unique enrollment&lt;br&gt;for this batch?" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Doctor Repeat Enrollment SMS" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="320"/>
+                            <mxPoint x="420" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.326" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="320"/>
+                            <mxPoint x="180" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6044" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Doctor is already enrolled?" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Doctor Enrollment Approval SMS" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="7T4VtnuJo78qdX5jiTBy" name="Data Flow Diagram">
+        <mxGraphModel dx="1768" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="81.28" y="240" width="878.72" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="81.28" y="80" width="878.72" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-3" value="CarePlus Doctors" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;rotation=-90;" parent="1" vertex="1">
+                    <mxGeometry x="-18.72" y="140" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-5" value="Doctor Enrollment" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="41.28" y="40" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AHSJW5W-CoaWDbNbSBh5-7" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-7" value="Fill out doctor form on CarePlus website" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="121.28" y="120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-9" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="320" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="AKaRFCRcN1HCFIObdqCC-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8BC1ftDdUAZvaVMhzcJ-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6WNWzq5fSwgy4dhAtyI8-15" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1979" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Unique&lt;br&gt;enrollment&lt;br&gt;for this&lt;br&gt;batch?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="460.6399999999999" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" parent="1" source="4" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Extract Zendesk Tickets via Airtable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="121.28" y="480.64" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="6WNWzq5fSwgy4dhAtyI8-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="760" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Send Doctor Repeat Enrollment SMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="441.28" y="320" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-10" style="edgeStyle=none;html=1;" parent="1" source="AKaRFCRcN1HCFIObdqCC-7" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8BC1ftDdUAZvaVMhzcJ-10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6WNWzq5fSwgy4dhAtyI8-10" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0215" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AKaRFCRcN1HCFIObdqCC-7" target="6WNWzq5fSwgy4dhAtyI8-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8BC1ftDdUAZvaVMhzcJ-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6WNWzq5fSwgy4dhAtyI8-11" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0965" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="AKaRFCRcN1HCFIObdqCC-7" value="Doctor&lt;br&gt;already&lt;br&gt;enrolled?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="460.6399999999999" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6WNWzq5fSwgy4dhAtyI8-7" target="6WNWzq5fSwgy4dhAtyI8-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-7" value="Send Doctor Enrollment Approval&lt;br&gt;SMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="480.64" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6WNWzq5fSwgy4dhAtyI8-8" target="AHSJW5W-CoaWDbNbSBh5-16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="880" y="521"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6WNWzq5fSwgy4dhAtyI8-8" value="Broadcast&lt;br&gt;Messages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="480.64" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHSJW5W-CoaWDbNbSBh5-16" value="Doctor receives an SMS regarding enrollment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="V8BC1ftDdUAZvaVMhzcJ-7" value="Coordinators" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;rotation=-90;" parent="1" vertex="1">
+                    <mxGeometry x="-138.72" y="420" width="400" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

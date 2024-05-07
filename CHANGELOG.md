@@ -1,5 +1,10 @@
 # CHANGELOG
 
+- [IT] [#9](https://github.com/MedGrocer/diagrams/issues/9) others(update): update jn and ns diagrams
+
+  - env changes: N/A
+  - airtable changes: N/A
+
 - [IT] [#8](https://github.com/MedGrocer/diagrams/issues/8) other(update): create diagrams for patient enrollment, doctor enrollment, order verification for ns
 
   - env changes: N/A
