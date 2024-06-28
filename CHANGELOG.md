@@ -1,5 +1,15 @@
 # CHANGELOG
 
+- [IT] [#20](https://github.com/MedGrocer/diagrams/issues/20) app(update): [acastro] create/revise current novartis pulse care ops diagrams
+
+  - env changes: N/A
+  - airtable changes: N/A
+
+- [IT] [#11](https://github.com/MedGrocer/diagrams/issues/11) app(update): create/revise current novartis pulse care website diagrams
+
+  - env changes: N/A
+  - airtable changes: N/A
+
 - [IT] [#8](https://github.com/MedGrocer/diagrams/issues/8) other(update): create diagrams for patient enrollment, doctor enrollment, order verification for ns
 
   - env changes: N/A
