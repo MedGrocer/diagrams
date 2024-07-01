@@ -1,64 +1,64 @@
 <mxfile host="65bd71144e">
     <diagram id="TaLe2RkKAlyfnmkdeISu" name="Decision Tree">
-        <mxGraphModel dx="393" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="190" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="89" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
-                    <mxGeometry x="1490" y="40" width="840" height="641" as="geometry"/>
+                    <mxGeometry x="1490" y="100" width="840" height="731" as="geometry"/>
                 </mxCell>
                 <mxCell id="88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="1030" y="141" width="220" height="330" as="geometry"/>
+                    <mxGeometry x="1030" y="291" width="220" height="330" as="geometry"/>
                 </mxCell>
                 <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="980" y="191" as="sourcePoint"/>
+                        <mxPoint x="980" y="341" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="24" value="Patient&amp;nbsp;&lt;br&gt;(User)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="161" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="890" y="311" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="Enroll using Mobile Number" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1050" y="161" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1050" y="311" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="Verify Mobile Number OTP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1050" y="261" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1050" y="411" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="25" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="Fill out Patient Enrollment Form" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1050" y="361" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1050" y="511" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="MedGrocer Zendesk" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-                    <mxGeometry x="1280" y="361" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1280" y="511" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="27" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="Sync Airtable with Zendesk Tickets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1530" y="363.5" width="140" height="55" as="geometry"/>
+                    <mxGeometry x="1530" y="513.5" width="140" height="55" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="40" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Verify if ticket is a unique enrollment for the batch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1530" y="261" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1530" y="411" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="41" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="Verify if ticket is a repeat enrollment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1530" y="161" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1530" y="311" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="43" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="Check Patient's Valid ID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1740" y="261" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1740" y="411" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="45" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -66,20 +66,23 @@
                 <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="51" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="51" value="Check if patient is enrolled in Adverse Events" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1740" y="161" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1740" y="311" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="45" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="Send Invalid ID SMS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1740" y="361" width="140" height="60" as="geometry"/>
+                <mxCell id="52" value="Tag enrollment as invalid ID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1740" y="511" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="75" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="47" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="Check if patient has uploaded a valid ID within 12 hours" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1740" y="461" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1740" y="611" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="52" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -88,7 +91,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="Check Doctor Referral Information" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1950" y="261" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1950" y="411" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="81" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="47" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -96,85 +99,99 @@
                 <mxCell id="82" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="53" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="2020" y="491"/>
+                            <mxPoint x="2020" y="641"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="140" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="56" target="137">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="56" value="Fill out ticket processer information" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1950" y="161" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="1950" y="311" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="55" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="Export SMS CSV" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2160" y="161" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="56" target="58" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="60" value="Patient recieves Enrollment approval SMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2370" y="161" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="58" target="60" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="60" value="Patient recieves thier respective SMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2530" y="201" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="Patient Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1196" y="361" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="1196" y="511" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="Patient Enrollment Ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1410" y="361" width="110" height="30" as="geometry"/>
+                    <mxGeometry x="1410" y="511" width="110" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="Repeat Enrollment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1540" y="124" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="1540" y="274" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="Invalid ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1750" y="326" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="1750" y="476" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="No valid ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1730" y="523" width="80" height="30" as="geometry"/>
+                    <mxGeometry x="1730" y="673" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" value="Valid ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1884" y="265" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="1884" y="415" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="84" value="Valid ID uploaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1893" y="466" width="106" height="30" as="geometry"/>
+                    <mxGeometry x="1893" y="616" width="106" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
-                    <mxGeometry x="1494" y="651" width="840" height="30" as="geometry"/>
+                    <mxGeometry x="1490" y="801" width="840" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="1030" y="441" width="220" height="30" as="geometry"/>
+                    <mxGeometry x="1030" y="591" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="92" value="&lt;b&gt;Pulse Care Website&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="441" width="140" height="30" as="geometry"/>
+                    <mxGeometry x="1070" y="591" width="140" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="Pulse Care Ops" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="1856.5" y="651" width="107" height="30" as="geometry"/>
+                    <mxGeometry x="1856.5" y="801" width="107" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="97" value="PATIENT ENROLLMENT PROCESS (USER - OPS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" parent="1" vertex="1">
-                    <mxGeometry x="930" y="60" width="320" height="30" as="geometry"/>
+                    <mxGeometry x="930" y="210" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                <mxCell id="143" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="138">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1660" y="80" as="sourcePoint"/>
-                        <mxPoint x="2230" y="160" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="2230" y="80"/>
+                            <mxPoint x="1600" y="140"/>
+                            <mxPoint x="2230" y="140"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="99" value="Send patient repeat enrollment SMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1540" y="51" width="120" height="60" as="geometry"/>
+                <mxCell id="99" value="Assign &quot;Patient repeat enrollment SMS&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="201" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="100" target="58">
+                <mxCell id="145" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="100" target="138">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="2230" y="590"/>
+                            <mxPoint x="2230" y="741"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="100" value="Invalid ID SMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1750" y="561" width="120" height="60" as="geometry"/>
+                <mxCell id="100" value="Assign &quot;No valid ID uploaded SMS&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1750" y="711" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Send details to AE Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1750" y="201" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="135" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="Telerivet sends out SMS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="2360" y="201" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="137" target="138">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="Assign &quot;Approved Patient Enrollment SMS&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1950" y="201" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="138" target="135">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="Export SMS CSV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2160" y="201" width="140" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
